@@ -1,0 +1,49 @@
+.whatIDoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whatIDoText {
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 300;
+  /* margin: 0px; */
+  margin-bottom: 0px;
+}
+.designImage {
+  width: 200px;
+    height: 200px;
+}
+
+.whatIDoText strong {
+  color: #38a5db;
+}
+.whatIDoDescription em {
+  font-style: italic;
+  margin: 0px;
+  padding: 0px;
+  color: #adadad;
+}
+.whatIDoDescription {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.hr {
+  height: 1px;
+  background-color: #E4E4E4;
+  width: 40%;
+  margin-bottom: 10px;
+}
+.workDecriptionContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+.oneWorkDecriptionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}

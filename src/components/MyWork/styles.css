@@ -1,0 +1,54 @@
+.MyWorksText {
+  text-transform: uppercase;
+  color: #333;
+}
+
+.ExampleText {
+  letter-spacing: 1px;
+  color: #adadad;
+}
+
+.textContaiiner {
+  text-align: center;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.ExampleTextSepratore {
+  height: 1px;
+  background-color: #e4e4e4;
+  width: 50%;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.myWorksImageCntianer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 20;
+  padding-right: 20;
+}
+
+.oneWorkContainer {
+  position: relative;
+  background-Color: 'red';
+  display: flex;
+  justify-Content: center;
+  align-Items: center
+}
+
+.oneWorkText {
+  position: absolute;
+  text-Align: center;
+  top: 100;
+  background-Color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  border-radius: 2px;
+}

@@ -1,0 +1,66 @@
+.MyExContainer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.MyExText {
+  text-transform: uppercase;
+  color: #333;
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.exinfo {
+  letter-spacing: 1px;
+  color: #adadad;
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  /* border-bottom: #E4E4E4 solid 1px; */
+}
+em {
+  font-style: italic;
+}
+
+.positionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.positionCopanyName {
+  width: 92px;
+  height: 50px;
+  text-align: center;
+  background-color: #333;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 25px 0;
+  border-top-left-radius: 0;
+  margin: 0 10px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+h4.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333;
+    line-height: 20px;
+}
+
+.fromTo {
+   color: #909090
+}
+.role {
+    color: #D0D0D0;
+    margin: 0px 0px 10px 0px;
+}

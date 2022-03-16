@@ -1,0 +1,66 @@
+.myInfoMainContainer {
+  background-color: #38a5db;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.whoAmIcontaier {
+  border-bottom: white solid 1px;
+  width: 50%;
+  padding-bottom: 0px;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.whoAmIcontaier h2 {
+  font-weight: 300;
+  padding: 0px;
+  margin: 0px;
+}
+.whoAmIcontaier h5 {
+  margin-top: 5x;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+.whoAmIcontaier h5 em {
+  font-style: italic;
+}
+.imageNameContainer {
+  display: grid;
+  width: 50%;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.imageNameContainer img {
+  box-shadow: 12px 0px 0px 12px rgb(255 255 255 / 20%), -12px 0px 0px 12px rgb(255 255 255 / 20%);
+  display: block;
+  max-width: 40%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.counBox {
+  background-color: rgba(1, 36, 53, 0.32);
+  transition: all 0.5s;
+  width: 250px;
+  height: 200px;
+  
+}
+
+.counBox:hover {
+  background-color: rgb(255 255 255 / 20%);
+}
+@media only screen and (max-width: 768px) {
+  
+  .imageNameContainer img {
+    display: none;
+  }
+
+}

@@ -1,0 +1,58 @@
+.container {
+  background-image: url("../../assets/imgaes/p.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 10px;
+  min-height: 100vh;
+}
+.PortfolioContainer {
+  display: flex;
+}
+
+.PotofolioText {
+  text-align: center;
+  color: white;
+}
+
+/* project Cart */
+.cartRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 5px 10px 5px;
+  background-color: white;
+  margin: 20px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.cartImage {
+  width: 20vw;
+  height: 30vw;
+  object-fit: contain;
+}
+
+.cartName {
+    margin: 10px 0px 0px 0px;
+}
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.LinkIcon {
+    margin: 0px 5px 0px 5px;
+}

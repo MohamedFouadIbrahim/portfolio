@@ -1,0 +1,12 @@
+.introSection {
+    background-color: #38A5DB;
+    padding: 5% 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.introSectionText {
+    color: #FFFFFF;
+    line-height: 64px;
+    font-size: 44px;
+}
