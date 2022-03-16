@@ -9,8 +9,8 @@ import {
 //
 const ApplicationContainer = () => (
     <Router>
-        <Route path='/' component={Portfolio} />
-        <Route path='/Portfolio' component={Portfolio} />
+        <Route exact path='/' component={Portfolio} />
+        <Route exact path='/portfolio' component={Portfolio} />
         <Route path="/Project" component={Project} />
         <Route path="/Portfolio/:id" component={Portfolio} />
     </Router>
