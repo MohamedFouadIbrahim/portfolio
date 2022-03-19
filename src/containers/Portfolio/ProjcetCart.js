@@ -37,11 +37,12 @@ function ProjectCart(props) {
                     className='LinkIcon'
                     onClick={() => window.open(github, '_blank')?.focus()}
                 />
-                <Link to={{
-                    pathname: '/Project',
-                    data: { ...props }
-                }}
-                    style={{ color: 'black' }}
+                <Link
+                    to={{
+                        pathname: '/Project',
+                        data: { ...props }
+                    }}
+                    className='imagesIcon'
                 >
                     <AiFillFileImage
                         size={25}
