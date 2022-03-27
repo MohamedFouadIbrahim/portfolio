@@ -18,7 +18,7 @@ function ProjectCart(props) {
     } = props
 
     return (
-        <div className='cartContainer' style={{ animationDelay: `${index}s` }}  >
+        <div className='cartContainer' style={{ animationDelay: `${index + 1}s` }}  >
             <img
                 className='cartImage'
                 src={images[0]}
