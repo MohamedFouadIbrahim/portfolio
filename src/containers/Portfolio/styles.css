@@ -35,6 +35,9 @@
   background-color: white;
   margin: 20px 10px 10px 10px;
   border-radius: 10px;
+  animation-name: cartScale;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
 }
 
 .cartImage {
@@ -59,4 +62,14 @@
 }
 .imagesIcon {
   color: black;
+}
+/* animations */
+
+@keyframes cartScale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }

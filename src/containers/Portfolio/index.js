@@ -203,7 +203,7 @@ const Portfolio = () => {
             </h1>
             
             <div className='cartRow'>
-                {locallData.map((item, index) => (<ProjectCart key={String(item.id)} {...item} />))}
+                {locallData.map((item, index) => (<ProjectCart index={index} key={String(item.id)} {...item} />))}
             </div>
 
         </div>

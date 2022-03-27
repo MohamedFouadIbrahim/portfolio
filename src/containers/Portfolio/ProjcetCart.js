@@ -13,11 +13,12 @@ function ProjectCart(props) {
             github,
             live
         },
-        id
+        id,
+        index
     } = props
 
     return (
-        <div className='cartContainer' >
+        <div className='cartContainer' style={{ animationDelay: `${index}s` }}  >
             <img
                 className='cartImage'
                 src={images[0]}
